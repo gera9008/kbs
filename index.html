@@ -12,20 +12,14 @@
       height: 100vh;
       margin: 0;
       font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom, #87cefa, #1e90ff);
+      background: #1e90ff; /* Синій фон */
     }
 
     #hello {
       font-size: 3rem;
       color: white;
-      opacity: 0;
-      transform: translateY(50px);
-      transition: opacity 1s ease, transform 1s ease;
-    }
-
-    .visible {
-      opacity: 1;
-      transform: translateY(0);
+      opacity: 0; /* Початково невидимий */
+      transition: opacity 2s ease-in-out; /* Плавна анімація прозорості */
     }
   </style>
 </head>
