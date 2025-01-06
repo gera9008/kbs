@@ -1,12 +1,13 @@
-import "./App.css";
+import React from 'react';
+import ItemList from './components/ItemList';
 
-function App({ secretKey }) {
-  return (
-    <div className="App">
-      росія - країна <span className="animate">терорист</span>
-      <div style={{ display: "none" }}>{secretKey}</div>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div className="App">
+            <h1>Items List from https://kbs-api.onrender.com/</h1>
+            <ItemList />
+        </div>
+    );
+};
 
 export default App;

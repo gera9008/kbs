@@ -1,0 +1,41 @@
+.items-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* Більш світлий фон */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Додаємо тінь */
+    border-radius: 10px; /* Згладжені кути */
+}
+
+.items-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #0078D4; /* Кольоровий акцент */
+    color: #ffffff; /* Білий текст для контрасту */
+    border-radius: 8px; /* Згладжені кути */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легка тінь */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Анімація при наведенні */
+}
+
+.item:hover {
+    transform: translateY(-5px); /* Піднімається при наведенні */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Глибша тінь */
+}
+
+.item h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.item p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
